@@ -1,0 +1,132 @@
+{
+  "patterns": [
+    {
+      "id": "pattern_001",
+      "name": "Vertical SaaS Strategy",
+      "description": "Focus on a specific industry vertical with deep integration and domain expertise rather than horizontal market",
+      "characteristics": [
+        "Deep industry domain knowledge",
+        "Customized workflows for target industry",
+        "Industry-specific compliance and regulations",
+        "Targeted marketing and sales channels",
+        "Higher willingness to pay from vertical customers"
+      ],
+      "success_rate": 0.72,
+      "best_for": ["B2B SaaS", "Enterprise software", "Healthcare tech", "Finance tech"],
+      "companies": ["Veeva (pharma cloud)", "Toast (restaurant POS)", "Shopify (e-commerce)"],
+      "risks": [
+        "Market size limitation",
+        "Dependency on industry trends",
+        "Higher CAC in niche markets"
+      ],
+      "recommendation": "Ideal for startups with deep industry expertise. Reduces competition vs horizontal plays."
+    },
+    {
+      "id": "pattern_002",
+      "name": "Low-Code/No-Code Positioning",
+      "description": "Empowering non-technical users to build solutions without coding, reducing IT dependency",
+      "characteristics": [
+        "Visual workflow builders",
+        "Drag-and-drop interfaces",
+        "Pre-built templates and components",
+        "Minimal technical skills required",
+        "Faster time-to-value"
+      ],
+      "success_rate": 0.68,
+      "best_for": ["Process automation", "Form builders", "Workflow management", "Business automation"],
+      "companies": ["Zapier", "Make", "Airtable", "Retool"],
+      "risks": [
+        "Complexity ceiling - power users need code eventually",
+        "Maintaining ease-of-use as feature set grows",
+        "Pro-code developer resistance"
+      ],
+      "recommendation": "Strong SMB/mid-market appeal. Growing trend. Easy to adopt but hard to expand upmarket."
+    },
+    {
+      "id": "pattern_003",
+      "name": "Freemium to Premium Upsell",
+      "description": "Acquire users with free tier, convert to paid through value realization and feature gates",
+      "characteristics": [
+        "Free tier with usage limits",
+        "Core functionality free, advanced features paid",
+        "Self-serve onboarding",
+        "Clear upgrade paths",
+        "Low friction for free trial users"
+      ],
+      "success_rate": 0.65,
+      "best_for": ["Developer tools", "Productivity apps", "Analytics platforms", "Communication tools"],
+      "companies": ["Slack", "Figma", "Notion", "GitHub"],
+      "risks": [
+        "Low free-to-paid conversion (5-20% typical)",
+        "High free user support costs",
+        "Free tier cannibalization"
+      ],
+      "recommendation": "Requires strong viral/organic growth. Works well with low-cost hosting. CAC recovery critical."
+    },
+    {
+      "id": "pattern_004",
+      "name": "API-First / Platform Strategy",
+      "description": "Build infrastructure/platform for developers to build on top of, creating ecosystem",
+      "characteristics": [
+        "REST/GraphQL APIs",
+        "Comprehensive documentation",
+        "Developer community",
+        "Third-party integrations",
+        "Marketplace of extensions"
+      ],
+      "success_rate": 0.71,
+      "best_for": ["Infrastructure", "Payment processing", "Communications", "Data platforms"],
+      "companies": ["Stripe", "Twilio", "AWS", "SendGrid"],
+      "risks": [
+        "High engineering investment",
+        "Slow adoption from ecosystem",
+        "Open source competition"
+      ],
+      "recommendation": "High TAM play but requires strong technical foundation and ecosystem strategy."
+    },
+    {
+      "id": "pattern_005",
+      "name": "AI-Powered Efficiency / Automation",
+      "description": "Use AI/ML to automate repetitive tasks or augment human capability, reducing cost or time",
+      "characteristics": [
+        "Machine learning model at core",
+        "Automated workflows",
+        "Predictive capabilities",
+        "Natural language interfaces",
+        "Continuous learning and improvement"
+      ],
+      "success_rate": 0.63,
+      "best_for": ["Customer support", "Data processing", "Code generation", "Content creation", "Compliance"],
+      "companies": ["OpenAI", "Anthropic", "Copy.ai", "Jasper"],
+      "risks": [
+        "Dependency on LLM APIs and their costs",
+        "Accuracy and reliability concerns",
+        "Prompt engineering as moat (weak)",
+        "Rapid commoditization"
+      ],
+      "recommendation": "Hot area but crowded. Need strong defensible differentiation beyond wrapper."
+    },
+    {
+      "id": "pattern_006",
+      "name": "Marketplace/Network Effects",
+      "description": "Create platform connecting supply and demand, value increases with participants",
+      "characteristics": [
+        "Two-sided network",
+        "Supply and demand balance critical",
+        "Network effects",
+        "High switching costs",
+        "Lock-in for both sides"
+      ],
+      "success_rate": 0.58,
+      "best_for": ["Gig economy", "E-commerce", "Services marketplaces", "Content platforms"],
+      "companies": ["Uber", "Airbnb", "Upwork", "Fiverr"],
+      "risks": [
+        "Chicken-egg problem (supply/demand)",
+        "High customer acquisition costs",
+        "Regulatory challenges",
+        "Trust and safety requirements"
+      ],
+      "recommendation": "Hardest to bootstrap but strongest competitive moat. Requires capital and patient growth."
+    }
+  ]
+}

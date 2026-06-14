@@ -1,0 +1,216 @@
+{
+  "case_studies": [
+    {
+      "id": "case_001",
+      "name": "Slack",
+      "status": "success",
+      "summary": "Messaging platform that became essential workplace communication tool",
+      "founding_year": 2009,
+      "exit_year": 2021,
+      "exit_value_billions": 27.7,
+      "founding_team_size": 5,
+      "time_to_product_market_fit_years": 2,
+      "key_insight": "Originally internal tool for game company. Found 10x better use case in communication.",
+      "business_model": "SaaS - Freemium to Premium",
+      "key_success_factors": [
+        "Solved real pain point (vs email)",
+        "Network effects (team adoption)",
+        "Self-serve onboarding",
+        "Strong investor backing",
+        "Vertical integration (integrations ecosystem)",
+        "Bottom-up adoption (employees drove adoption)"
+      ],
+      "critical_mistakes_avoided": [
+        "Didn't build horizontal platform too early",
+        "Focused on user experience obsessively",
+        "Strong brand and messaging"
+      ],
+      "market_conditions": "Cloud computing, chat becoming popular, team remote work accelerating",
+      "lessons": [
+        "Bottom-up adoption powerful",
+        "Network effects defensible moat",
+        "Free tier key for adoption",
+        "Customer obsession matters"
+      ]
+    },
+    {
+      "id": "case_002",
+      "name": "Theranos",
+      "status": "failure",
+      "summary": "Blood testing startup that made false claims about technology capabilities",
+      "founding_year": 2003,
+      "failure_year": 2018,
+      "peak_valuation_billions": 9,
+      "founding_team_size": 2,
+      "time_to_failure_years": 15,
+      "key_insight": "Ambition without technology foundation led to fraud and collapse",
+      "business_model": "B2B Healthcare - Direct to consumer blood tests",
+      "key_failure_factors": [
+        "Technology didn't work as claimed",
+        "Misrepresentation to investors and partners",
+        "Lack of scientific rigor and peer review",
+        "Charismatic founder covered up problems",
+        "Regulatory oversight gaps exploited",
+        "Company culture suppressed dissent"
+      ],
+      "warning_signs": [
+        "Overpromising on technology timelines",
+        "Secretive about actual capabilities",
+        "Key technical hires departing",
+        "Inconsistent technical performance",
+        "Regulatory rejections ignored"
+      ],
+      "market_conditions": "Healthcare was hot, investment frothy, no independent verification",
+      "lessons": [
+        "Technology must actually work",
+        "Transparency builds trust",
+        "Peer review and rigor essential for medical",
+        "Founder fallibility important",
+        "Culture that allows dissent prevents disasters"
+      ]
+    },
+    {
+      "id": "case_003",
+      "name": "Figma",
+      "status": "success",
+      "summary": "Collaborative design tool that replaced desktop software (Adobe, Sketch)",
+      "founding_year": 2012,
+      "exit_year": null,
+      "latest_valuation_billions": 20,
+      "founding_team_size": 2,
+      "time_to_product_market_fit_years": 3,
+      "key_insight": "Identified shift from desktop to web. Built collaborative, browser-based design tool.",
+      "business_model": "SaaS - Freemium to Premium + Teams",
+      "key_success_factors": [
+        "Timing: Web tech matured for real-time collaboration",
+        "Product-market fit in design community",
+        "Freemium attracted individual designers",
+        "Powerful collaboration features (real-time)",
+        "Network effects within design teams",
+        "Strong design of the product itself",
+        "Investor patience for long runway"
+      ],
+      "critical_mistakes_avoided": [
+        "Didn't try to compete on desktop (used web as advantage)",
+        "Focused on core designers first (bottom-up)",
+        "Regular product updates and listening"
+      ],
+      "market_conditions": "Browser tech (WebGL) matured, remote work growing, design gaining importance",
+      "lessons": [
+        "Timing technology adoption cycles critical",
+        "Collaboration is powerful differentiator",
+        "Web can compete with desktop with right approach",
+        "Design of the product matters for design tools",
+        "Patient capital allows longer runway"
+      ]
+    },
+    {
+      "id": "case_004",
+      "name": "Zenefits",
+      "status": "failure",
+      "summary": "HR benefits platform that grew fast but had compliance and regulatory problems",
+      "founding_year": 2013,
+      "failure_year": 2017,
+      "peak_valuation_billions": 4.5,
+      "founding_team_size": 3,
+      "time_to_failure_years": 4,
+      "key_insight": "Hypergrowth masked regulatory and compliance issues in licensed industry",
+      "business_model": "SaaS - Benefits Brokerage",
+      "key_failure_factors": [
+        "Moved into regulated industry (insurance broker) without proper licensing",
+        "CEO pushed sales over compliance",
+        "Failed to hire regulatory expertise",
+        "Insurance regulators investigated",
+        "Unlicensed employee misconduct",
+        "Valuation at odds with actual business"
+      ],
+      "warning_signs": [
+        "Regulators asking questions early",
+        "Compliance team too small",
+        "Sales metrics prioritized over compliance",
+        "Legal and regulatory challenges ignored",
+        "Culture didn't support cautious approach"
+      ],
+      "market_conditions": "HR tech hot, frothy investment market, regulatory capture not evident",
+      "lessons": [
+        "Regulated industries need regulatory expertise from day 1",
+        "Metrics (growth) don't matter if business is illegal",
+        "Startup culture of 'move fast' incompatible with licensing",
+        "Board and CEO need regulatory savvy",
+        "Compliance is not overhead, is business model"
+      ]
+    },
+    {
+      "id": "case_005",
+      "name": "Stripe",
+      "status": "success",
+      "summary": "Payment processor that made accepting payments simple for businesses and developers",
+      "founding_year": 2010,
+      "exit_year": null,
+      "latest_valuation_billions": 95,
+      "founding_team_size": 2,
+      "time_to_product_market_fit_years": 1,
+      "key_insight": "Identified that payment processing was unnecessarily hard. Built developer-friendly API.",
+      "business_model": "API / Infrastructure - Usage-based (2.9% + $0.30)",
+      "key_success_factors": [
+        "Developer obsession and API design",
+        "Solved real pain point (payments friction)",
+        "Strong technical founders",
+        "Timing: Ecommerce growing, payments fragmented",
+        "Self-serve developer adoption",
+        "Consistent product and UX quality",
+        "Strong capitalization throughout"
+      ],
+      "critical_mistakes_avoided": [
+        "Didn't aim for enterprise sales initially",
+        "Focused on developer experience obsessively",
+        "Listened to customer feedback on product"
+      ],
+      "market_conditions": "Online commerce accelerating, fragmented payment ecosystem, developer empowerment",
+      "lessons": [
+        "Developer tools have strong moat",
+        "API design and documentation matter hugely",
+        "Self-serve adoption faster than sales",
+        "Quality and consistency compound",
+        "Picking large underserved market matters"
+      ]
+    },
+    {
+      "id": "case_006",
+      "name": "Quibi",
+      "status": "failure",
+      "summary": "Short-form video platform launched at wrong time with wrong model",
+      "founding_year": 2018,
+      "failure_year": 2020,
+      "peak_valuation_billions": 1.75,
+      "founding_team_size": 50,
+      "time_to_failure_years": 2,
+      "key_insight": "Great execution on wrong idea at wrong time (launched when COVID lockdowns made short-form irrelevant)",
+      "business_model": "Subscription - Premium content",
+      "key_failure_factors": [
+        "Launched during COVID (mobile use case invalid)",
+        "Expensive content not differentiated enough",
+        "Mobile-only (restrictive rather than advantage)",
+        "Crowded market (TikTok, YouTube Shorts, Snapchat)",
+        "Couldn't achieve product-market fit in time",
+        "High burn rate (unsustainable)",
+        "Leadership had traditional media mindset"
+      ],
+      "warning_signs": [
+        "Market resistance from day 1",
+        "Content expensive but not unique",
+        "Mobile-only turned out to be limiting",
+        "User acquisition cost too high",
+        "User retention disappointing"
+      ],
+      "market_conditions": "COVID-19 pandemic (shift to home entertainment), TikTok dominance, creator economy maturing",
+      "lessons": [
+        "Timing product launches for market conditions",
+        "Execution and capital alone don't guarantee success",
+        "Network effects and communities (TikTok) beat content budgets",
+        "Market research should have revealed issues",
+        "Sometimes the idea is right but timing is wrong"
+      ]
+    }
+  ]
+}

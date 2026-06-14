@@ -1,0 +1,178 @@
+{
+  "business_models": [
+    {
+      "id": "model_001",
+      "name": "SaaS (Software as a Service)",
+      "description": "Cloud-based subscription software with recurring revenue",
+      "characteristics": [
+        "Monthly/yearly recurring revenue (MRR/ARR)",
+        "Cloud-hosted, no installation",
+        "Automatic updates and patches",
+        "Usage-based or seat-based pricing",
+        "Free trial or freemium options"
+      ],
+      "revenue_model": "Subscription (recurring)",
+      "typical_arpu": "$100-$10,000/month",
+      "advantages": [
+        "Predictable recurring revenue",
+        "Lower CAC through self-serve",
+        "Customer lifetime value >3 years",
+        "Easy to scale infrastructure"
+      ],
+      "disadvantages": [
+        "High churn sensitivity",
+        "Long sales cycles for enterprise",
+        "Continuous feature development required",
+        "Competitive pressure on pricing"
+      ],
+      "market_maturity": "mature",
+      "time_to_revenue_months": 6,
+      "funding_typically_required_usd": 500000
+    },
+    {
+      "id": "model_002",
+      "name": "Marketplace / Platform",
+      "description": "Two-sided marketplace connecting buyers and sellers",
+      "characteristics": [
+        "Commission on transactions (15-30%)",
+        "Trust and safety infrastructure",
+        "Liquidity management (supply/demand)",
+        "Review and rating systems",
+        "Dispute resolution"
+      ],
+      "revenue_model": "Transaction-based commission",
+      "typical_arpu": "Commission: 15-30% of GMV",
+      "advantages": [
+        "Strong network effects",
+        "Sticky platform with switching costs",
+        "Scales with transaction volume",
+        "Defensible competitive moat"
+      ],
+      "disadvantages": [
+        "Chicken-egg problem at launch",
+        "Heavy trust and safety costs",
+        "Regulatory risks in some verticals",
+        "High customer acquisition needed"
+      ],
+      "market_maturity": "mature",
+      "time_to_revenue_months": 12,
+      "funding_typically_required_usd": 2000000
+    },
+    {
+      "id": "model_003",
+      "name": "Open Source / Community",
+      "description": "Free software with optional paid services (support, hosting, enterprise features)",
+      "characteristics": [
+        "Core software free and open source",
+        "Revenue from support, hosting, or enterprise tier",
+        "Community-driven development",
+        "Viral adoption among developers",
+        "Freemium enterprise support"
+      ],
+      "revenue_model": "Freemium (free software + paid services)",
+      "typical_arpu": "$0 OSS (100% free), $5-50K/year paid services",
+      "advantages": [
+        "Huge viral potential among developers",
+        "Low marketing costs",
+        "Strong community contribution",
+        "Enterprise conversion easy once adopted"
+      ],
+      "disadvantages": [
+        "Monetization challenging",
+        "Unpredictable revenue",
+        "Competing offerings (forks)",
+        "Requires significant patience/capital"
+      ],
+      "market_maturity": "emerging",
+      "time_to_revenue_months": 18,
+      "funding_typically_required_usd": 1000000
+    },
+    {
+      "id": "model_004",
+      "name": "B2B Services / Consulting",
+      "description": "High-touch professional services and consulting",
+      "characteristics": [
+        "Project-based or time-and-materials fees",
+        "Custom solutions for clients",
+        "High-touch client interaction",
+        "Expert team of consultants",
+        "Long-term client relationships"
+      ],
+      "revenue_model": "Project fees or hourly rates",
+      "typical_arpu": "$50K-$500K+ per project",
+      "advantages": [
+        "Higher profit margins (60-80%)",
+        "Immediate revenue from projects",
+        "Strong client relationships",
+        "Recurring revenue potential"
+      ],
+      "disadvantages": [
+        "Limited scalability (time-bound)",
+        "High customer acquisition costs",
+        "Seasonal project flow variability",
+        "Team size limits growth"
+      ],
+      "market_maturity": "mature",
+      "time_to_revenue_months": 2,
+      "funding_typically_required_usd": 100000
+    },
+    {
+      "id": "model_005",
+      "name": "API / Infrastructure",
+      "description": "Charges usage-based fees for API calls or infrastructure services",
+      "characteristics": [
+        "Pay-as-you-go usage pricing",
+        "Low/no upfront cost barriers",
+        "Automatic metering and billing",
+        "Developer-friendly documentation",
+        "Scalable infrastructure"
+      ],
+      "revenue_model": "Usage-based (per API call, GB, transaction)",
+      "typical_arpu": "$100-$10K/month for active users",
+      "advantages": [
+        "Self-serve onboarding and adoption",
+        "Usage grows revenue (aligned incentives)",
+        "Low churn for core functions",
+        "Developer love and community"
+      ],
+      "disadvantages": [
+        "Revenue variable with usage",
+        "Intense competition (AWS, Google, Azure)",
+        "Margin compression at scale",
+        "High infrastructure costs"
+      ],
+      "market_maturity": "mature",
+      "time_to_revenue_months": 4,
+      "funding_typically_required_usd": 5000000
+    },
+    {
+      "id": "model_006",
+      "name": "Content / Creator Platform",
+      "description": "Platform for creators to publish and monetize content",
+      "characteristics": [
+        "Creator-generated content",
+        "Ad revenue or subscription",
+        "Revenue share with creators (50-70%)",
+        "Community features",
+        "Algorithmic discovery and recommendations"
+      ],
+      "revenue_model": "Ads + subscription + creator revenue share",
+      "typical_arpu": "Ad revenue or $5-15/creator/month",
+      "advantages": [
+        "Network effects with users and creators",
+        "Diverse revenue streams",
+        "Sticky for both creators and consumers",
+        "Viral growth potential"
+      ],
+      "disadvantages": [
+        "Extremely competitive (YouTube, TikTok, etc)",
+        "Complex content moderation at scale",
+        "Creator retention challenges",
+        "IPR and licensing complexity"
+      ],
+      "market_maturity": "mature",
+      "time_to_revenue_months": 8,
+      "funding_typically_required_usd": 3000000
+    }
+  ]
+}
