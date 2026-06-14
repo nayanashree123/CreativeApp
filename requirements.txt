@@ -1,0 +1,13 @@
+openai>=1.0.0
+gradio>=4.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+faiss-cpu>=1.7.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+plotly>=5.0.0
+numpy>=1.23.0
+github-copilot-sdk
+sentence-transformers>=2.2.0
+scikit-learn>=1.0.0
+markdown>=3.4.0
